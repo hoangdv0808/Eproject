@@ -1,0 +1,202 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Blog
+  link(rel='shortcut icon' href='../img/images/logo/icon.png' type='image/x-icon')
+  link(rel='stylesheet' href='../asset/style.css')
+  link(rel='stylesheet' href='../css/bootstrap.min.css')
+  link(rel='stylesheet' href='../icon/fontawesome/css/all.min.css')
+body
+  header
+    .container-fluid.header-menu
+      .HED
+        .col-lg-4.logo
+          a(href='index.html')
+            img(src='../img/images/logo/logo.png' alt='')
+        .col-lg-8
+          nav.navbar.navbar-expand-lg.navbar-dark
+            #collapsibleNavId.collapse.navbar-collapse.menuone.vang
+              ul.navbar-nav.mr-auto.mt-2.mt-lg-0
+                li.nav-item.dropdown
+                  a#dropdownId.nav-link(href='index.html') Home
+                li.nav-item.dropdown
+                  a#dropdownId.nav-link(href='about.html') About
+                li.nav-item.dropdown
+                  a#dropdownId.nav-link(href='servicer.html') Services
+                li.nav-item.dropdown
+                  a#dropdownId.nav-link(href='gollery.html') Gallery
+                li.nav-item.dropdown
+                  a#dropdownId.nav-link(href='blog.html' style='color:#e52e71;') Blog
+                li.nav-item.dropdown
+                  a#dropdownId.nav-link(href='contact.html') Contact
+  .ready.banner-padding.bg-img.bg-fixed.valign(data-background='../img/images/slider/2.jpg' style='background-image: url("../img/images/slider/2.jpg");')
+    .container
+      .row
+        .col-md-12
+          .text-right
+            .title.mt-td
+              h1.mb-0 BLOG
+              h6 The latest news
+  section#blog.fredia-blog-section.blog-page.section-padding
+    .container
+      .row
+        .col-md-8
+          .row
+            .col-md-12
+              .item
+                .post-img
+                  a(href='post.html')
+                    img(src='../img/images/blog/1.jpg' alt='')
+                .post-cont
+                  a(href='blog.html')
+                    span.tag Face Makeup
+                  h5
+                    a(href='post.html') 8 Ways To Wear Flowers In Your Hair
+                  p
+                    | Visualizing architecture design libero libero, eget cursus ex maximus non kuisque volutpat venenatis lacus sed the hendrerit nisi. Vivense facilisis libero libero eget cursus ex maximus non kuisque volutpat venenatis lacus sed hendrerit the drana connect...
+                  .info 24 July 2022
+            .col-md-12
+              .item
+                .post-img
+                  a(href='post.html')
+                    img(src='../img/images/blog/2.jpg' alt='')
+                .post-cont
+                  a(href='blog.html')
+                    span.tag Eyebrow Makeup
+                  h5
+                    a(href='post.html') What To Expect At Your Hair And Makeup Trial.
+                  p
+                    | Daily dose of architecture facilisis libero libero, eget cursus ex maximus non kuisque volutpat venenatis lacus sed the hendrerit nisi. Vivense facilisis libero libero eget cursus ex maximus non kuisque volutpat venenatis lacus sed hendrerit the drana connect...
+                  .info 21 July 2022
+            .col-md-12
+              .item
+                .post-img
+                  a(href='post.html')
+                    img(src='../img/images/blog/3.jpg' alt='')
+                .post-cont
+                  a(href='blog.html')
+                    span.tag Haircut Makeup
+                  h5
+                    a(href='post.html') So You Want To Be A Makeup Artist?
+                  p
+                    | The dawn of open architecture libero eget cursus ex maximus non kuisque volutpat venenatis lacus sed the hendrerit nisi. Vivense facilisis libero libero eget cursus ex maximus non kuisque volutpat venenatis lacus sed hendrerit the drana connect...
+                  .info 27 July 2022
+          .row
+            .col-md-12.text-center
+              // Pagination
+              ul.blog-pagination-wrap.align-center
+                li
+                  a(href='blog.html#')
+                    i.fa-solid.fa-arrow-left
+                li
+                  a(href='blog.html#') 1
+                li
+                  a.active(href='blog.html#') 2
+                li
+                  a(href='blog.html#') 3
+                li
+                  a(href='blog.html#')
+                    i.fa-solid.fa-arrow-right
+        .col-md-4
+          .blog-sidebar.row
+            .col-md-12
+              .widget.search
+                form
+                  input(type='text' name='search' placeholder='Type here ...')
+                  button(type='submit')
+                    i.fa-solid.fa-magnifying-glass
+            .col-md-12
+              .widget
+                .widget-title
+                  h6 Recent Posts
+                ul.recent
+                  li
+                    .thum
+                      img(src='../img/images/blog/1.jpg' alt='')
+                    a(href='#') 8 Ways To Wear Flowers In Your Hair
+                  li
+                    .thum
+                      img(src='../img/images/blog/2.jpg' alt='')
+                    a(href='#') What To Expect At Your Hair And Makeup Trial.
+                  li
+                    .thum
+                      img(src='../img/images/blog/3.jpg' alt='')
+                    a(href='#') So You Want To Be A Makeup Artist?
+            .col-md-12
+              .widget
+                .widget-title
+                  h6 Archives
+                ul
+                  li
+                    a(href='#') June 2022
+                  li
+                    a(href='#') July 2022
+                  li
+                    a(href='#') August 2022
+            .col-md-12
+              .widget
+                .widget-title
+                  h6 Categories
+                ul
+                  li
+                    a(href='post.html')
+                      i.fa-solid.fa-chevron-right
+                      | Hair Makeup
+                  li
+                    a(href='post.html')
+                      i.fa-solid.fa-chevron-right
+                      | Face Makeup
+                  li
+                    a(href='post.html')
+                      i.fa-solid.fa-chevron-right
+                      | Eyebrow Makeup
+            .col-md-12
+              .widget
+                .widget-title
+                  h6 Tags
+                ul.tags
+                  li
+                    a(href='#') Makeup
+                  li
+                    a(href='#') Hair
+                  li
+                    a(href='#') Face
+                  li
+                    a(href='#') Eyebrow
+                  li
+                    a(href='#') Fashion
+                  li
+                    a(href='#') Artist
+  footer
+    .container
+      .footer-section
+        .row
+          .col-md-4.col-lg-4.col-xl-4
+            h6 Address Informations
+            p
+              b Fredia Victoria
+              br
+              p Makeup Artist
+            p 707 West Ave, CT 07750
+            p Connecticut — Norwalk 
+          .col-md-4.col-lg-4.col-xl-5
+            <h6>Contact Details</h6>
+            p E-mail Address:
+            p reservation@frediasan.com
+            .btn-cont
+              a(href="contact.html")
+                span Contact Us!
+          .col-md-4.col-lg-4.col-xl-3
+            h1 (+123) 456 789 000
+            p Working Hours:
+              | Mon-Fri: 08.00 - 19.00
+              | Sunday: Closed   
+  button#mybtn(onclick='topFunction()' title='Go to top')
+    i.fa-solid.fa-jet-fighter-up
+  script(src="../js/script.js")
+  script(src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous")
+  script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous")
+
+

@@ -1,0 +1,119 @@
+doctype html
+head
+	meta(charset='UTF-8')
+	meta(name='viewport' content='width=device-width, initial-scale=1.0')
+	title Contact
+	link(rel='shortcut icon' href='../img/images/logo/icon.png' type='image/x-icon')
+	link(rel='stylesheet' href='../asset/style.css')
+	link(rel='stylesheet' href='../css/bootstrap.min.css')
+	link(rel='stylesheet' href='../icon/fontawesome/css/all.min.css')
+body
+	header
+		.container-fluid.header-menu
+			.HED
+				.col-lg-4.logo
+					a(href='index.html')
+						img(src='../img/images/logo/logo.png' alt='')
+				.col-lg-8
+					nav.navbar.navbar-expand-lg.navbar-dark
+						#collapsibleNavId.collapse.navbar-collapse.menuone.vang
+							ul.navbar-nav.mr-auto.mt-2.mt-lg-0
+								li.nav-item.dropdown
+									a#dropdownId.nav-link(href='index.html') Home
+								li.nav-item.dropdown
+									a#dropdownId.nav-link(href='about.html') About
+								li.nav-item.dropdown
+									a#dropdownId.nav-link(href='servicer.html') Services
+								li.nav-item.dropdown
+									a#dropdownId.nav-link(href='gollery.html') Gallery
+								li.nav-item.dropdown
+									a#dropdownId.nav-link(href='blog.html') Blog
+								li.nav-item.dropdown
+									a#dropdownId.nav-link(href='contact.html' style='color:#e52e71;') Contact
+	.ready.banner-padding.bg-img.bg-fixed.valign(data-background='../img/images/slider/3.jpg' style='background-image: url("../img/images/slider/3.jpg");')
+		.container
+			.row
+				.col-md-12
+					.text-right
+						.title.mt-td
+							h1.mb-0 CONTACT US
+							h6 Address Informations
+	.section-padding
+		.container
+			.row
+				.col-md-12
+					span Informations
+					h2 Contact Our Makeup Office
+			.row
+				.col-md-12
+					.row.mb-60
+						.col-md-2
+							span.line-one
+						.col-md-4.mb-30
+							p
+								| Getting married or interested in getting glam? Find out whether I&apos;m available, enquire today!
+							p
+								b Phone :
+								|  (+123) 456 789 000
+							p
+								b eMail :
+								|  reservation@frediasan.com
+							p
+								b Address :
+								|  707 North West Ave, CT 07750 Connecticut Norwalk USA
+						.col-md-5.offset-md-1
+							h3 Quick appointment
+							form.contact__form(method='post' action='mail.php')
+								// Form message
+								.row
+									.col-12
+										.alert.alert-success.contact__msg(style='display: none' role='alert')
+											| Your message was sent successfully.
+								// Form elements
+								.row
+									.col-md-6.form-group
+										input(name='name' type='text' placeholder='Your Name *' required='')
+									.col-md-6.form-group
+										input(name='email' type='email' placeholder='Your Email *' required='')
+									.col-md-6.form-group
+										input(name='phone' type='text' placeholder='Your Number *' required='')
+									.col-md-6.form-group
+										input(name='subject' type='text' placeholder='Subject *' required='')
+									.col-md-12.form-group
+										textarea#message(name='message' cols='30' rows='4' placeholder='Message *' required='')
+									.col-md-12
+										input(name='submit' type='submit' value='Send Message')
+			.row
+				.col-md-12
+					iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13419.040333881774!2d-79.93218134282569!3d32.77209999120473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88fe7a1ae84ff639%3A0xe5c782f71924a526!2s24%20King%20St%2C%20Charleston%2C%20SC%2029401%2C%20Amerika%20Birle%C5%9Fik%20Devletleri!5e0!3m2!1str!2str!4v1635894790855!5m2!1str!2str' width='100%' height='500' style='border:0;' allowfullscreen='' loading='lazy')
+
+	footer
+		.container
+			.footer-section
+				.row
+					.col-md-4.col-lg-4.col-xl-4
+						h6 Address Informations
+						p
+							b Fredia Victoria
+							br
+							p Makeup Artist
+						p 707 West Ave, CT 07750
+						p Connecticut — Norwalk 
+					.col-md-4.col-lg-4.col-xl-5
+						<h6>Contact Details</h6>
+						p E-mail Address:
+						p reservation@frediasan.com
+						.btn-cont
+							a(href="contact.html")
+								span Contact Us!
+					.col-md-4.col-lg-4.col-xl-3
+						h1 (+123) 456 789 000
+						p Working Hours:
+							| Mon-Fri: 08.00 - 19.00
+							| Sunday: Closed   
+	button#mybtn(onclick='topFunction()' title='Go to top')
+		i.fa-solid.fa-jet-fighter-up
+	script(src="../js/script.js")
+	script(src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous")
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous")
+	script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous")

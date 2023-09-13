@@ -1,0 +1,106 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Home
+  link(rel='shortcut icon' href='../img/images/logo/icon.png' type='image/x-icon')
+  link(rel='stylesheet' href='../asset/style.css')
+  link(rel='stylesheet' href='../css/bootstrap.min.css')
+  link(rel='stylesheet' href='../icon/fontawesome/css/all.min.css')
+body
+  header
+    .container-fluid.header-menu
+      .HED
+        .col-lg-4.logo
+          a(href='index.html')
+            img(src='../img/images/logo/logo.png' alt='')
+        .col-lg-8
+          nav.navbar.navbar-expand-lg.navbar-dark
+            #collapsibleNavId.collapse.navbar-collapse.menuone.vang
+              ul.navbar-nav.mr-auto.mt-2.mt-lg-0
+                li.nav-item.dropdown
+                  a#dropdownId.nav-link(href='index.html' ) Home
+                li.nav-item.dropdown
+                  a#dropdownId.nav-link(href='about.html') About
+                li.nav-item.dropdown
+                  a#dropdownId.nav-link(href='servicer.html') Services
+                li.nav-item.dropdown
+                  a#dropdownId.nav-link(href='gollery.html') Gallery
+                li.nav-item.dropdown
+                  a#dropdownId.nav-link(href='blog.html' style='color:#e52e71;') Blog
+                li.nav-item.dropdown
+                  a#dropdownId.nav-link(href='contact.html') Contact
+  .section-padding
+    .container
+      .row
+        .col-md-12.mt-60
+          img.mb-60(src='../img/images/post/1.jpg' alt='')
+          h2 8 Ways To Wear Flowers In Your Hair
+      .row
+        .col-md-6
+          p
+            | Praesent tristique nisl felis at volutpat erat hendrerit ac. Proin ultricies nibe dolye maximus scelerisque. Integer molliser faucibus neque nec tincidunt. Aliquam era volutpat. Praeser tempor maluada quam, nec rutrum arcu ornare sed. Duru eget ligula at nibh viverra ultriciesi.
+          p
+            | Proin ultricies nibh non dolor maximus sceleue. Integer molliser faucine neque nec tincidunte. Aliquam erat volutpat. Praeser tempor malai the quam, nec rutrum arcu ornare senema.
+        .col-md-6
+          p
+            | Proin ultricies nibh non dolor maximus sceleue. Integer molliser faucine neque nec tincidunte. Aliquam erat volutpat. Praeser tempor malai the quam, nec rutrum arcu ornare senema.
+          p
+            | Praesent tristique nisl felis at volutpat erat hendrerit ac. Proin ultricies nibe dolye maximus scelerisque. Integer molliser faucibus neque nec tincidunt. Aliquam era volutpat. Praeser tempor maluada quam, nec rutrum arcu ornare sed. Duru eget ligula at nibh viverra ultriciesi.
+    .fredia-comment-section
+      .container
+        .row
+          .col-md-7
+            .fredia-post-comment-wrap
+              .fredia-user-comment
+                img(src='../img/images/post/people.jpg' alt='')
+              .fredia-user-content
+                h3
+                  | Emily Frank
+                  span  30 December 2022
+                p
+                  | Makeup ultricies nibh non dolor maximus sceleue. Integer molliser faubs neque nec tincidunte. Aliquam erat volutpat. Praeser tempor malade quam, nec rutrum arcu ornare yapta.
+          .col-md-5
+            h4 Leave a Reply
+            form.row(method='post')
+              .col-md-12
+                textarea#message(name='message' cols='40' rows='4' placeholder='Comment *' required='')
+              .col-md-6
+                input#name(type='text' name='name' placeholder='Name *' required='')
+              .col-md-6
+                input#email(type='email' name='email' placeholder='Email *' required='')
+              .col-md-12
+                button.fredia-btn.mt-15(type='submit') Post Comment.
+
+  footer
+    .container
+      .footer-section
+        .row
+          .col-md-4.col-lg-4.col-xl-4
+            h6 Address Informations
+            p
+              b Fredia Victoria
+              br
+              p Makeup Artist
+            p 707 West Ave, CT 07750
+            p Connecticut — Norwalk 
+          .col-md-4.col-lg-4.col-xl-5
+            <h6>Contact Details</h6>
+            p E-mail Address:
+            p reservation@frediasan.com
+            .btn-cont
+              a(href="contact.html")
+                span Contact Us!
+          .col-md-4.col-lg-4.col-xl-3
+            h1 (+123) 456 789 000
+            p Working Hours:
+              | Mon-Fri: 08.00 - 19.00
+              | Sunday: Closed
+  button#mybtn(onclick='topFunction()' title='Go to top')
+    i.fa-solid.fa-jet-fighter-up
+  script(src="../js/script.js")
+  script(src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous")
+  script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous")
+
+

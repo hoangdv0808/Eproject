@@ -1,0 +1,269 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Home
+  link(rel='shortcut icon' href='../img/images/logo/icon.png' type='image/x-icon')
+  link(rel='stylesheet' href='../asset/style.css')
+  link(rel='stylesheet' href='../css/bootstrap.min.css')
+  link(rel='stylesheet' href='../icon/fontawesome/css/all.min.css')
+body
+  header
+    .container-fluid.header-menu
+      .HED
+        .col-lg-4.logo
+          a(href='index.html')
+            img(src='../img/images/logo/logo.png' alt='')
+        .col-lg-8
+          nav.navbar.navbar-expand-lg.navbar-dark
+            #collapsibleNavId.collapse.navbar-collapse.menuone.vang
+              ul.navbar-nav.mr-auto.mt-2.mt-lg-0
+                li.nav-item.dropdown
+                  a#dropdownId.nav-link(href='index.html' style='color:#e52e71;') Home
+                li.nav-item.dropdown
+                  a#dropdownId.nav-link(href='about.html') About
+                li.nav-item.dropdown
+                  a#dropdownId.nav-link(href='servicer.html') Services
+                li.nav-item.dropdown
+                  a#dropdownId.nav-link(href='gollery.html') Gallery
+                li.nav-item.dropdown
+                  a#dropdownId.nav-link(href='blog.html') Blog
+                li.nav-item.dropdown
+                  a#dropdownId.nav-link(href='contact.html') Contact
+    .silder
+      #carouselId.carousel.slide(data-ride='carousel')
+        ol.carousel-indicators.round
+          li.active(data-target='#carouselId' data-slide-to='0')
+          li(data-target='#carouselId' data-slide-to='1')
+          li(data-target='#carouselId' data-slide-to='2')
+        .carousel-inner(role='listbox')
+          .carousel-item.active
+            img(src='../img/images/slider/0.jpg' alt='First slide')
+          .carousel-item
+            img(src='../img/images/slider/1.jpg' alt='Second slide')
+          .carousel-item
+            img(src='../img/images/slider/3.jpg' alt='Third slide')
+        a.carousel-control-prev(href='' role='button' data-slide='prev')
+          span.carousel-control-prev-icon(aria-hidden='true')
+          span.sr-only Previous
+        a.carousel-control-next(href='' role='button' data-slide='next')
+          span.carousel-control-next-icon(aria-hidden='true')
+          span.sr-only Next
+  .section-padding
+    .container
+      .row
+        .col-lg-12.mb-30
+          span Our Makeup Services
+          h1 We provide quality services
+      .row
+        .col-md-12
+          .row
+            .col-md-2
+              span.line-one
+            .col-md-7.mb-30
+              p
+                b Our services are summarized as follows. Makeup fusce ornare ut tortor ac hendrerit. Suspendisse sed sem tincidunt dui congue fermentum.
+              p Quisque eu nunc bibe endum in finibus elit eget the solli citudin elit. Phasellus rutrum in lacus ut euismod. Vestibulum eleifend tortor orci, eu ornare tortor semper at. Duis scelerisque the nibhse drana moss puse.
+      .row.services
+        .col-md-4.mb-15
+          .item.dd
+            .position-re.o-hidden
+              img(src='../img/images/home/s1.png' alt='')
+            .con
+              h5
+                a(href='services-page.html') Hair Makeup
+        .col-md-4.mb-15
+          .item.dd
+            .position-re.o-hidden
+              img(src='../img/images/home/s3.jpg' alt='')
+            .con
+              h5
+                a(href='services-page.html') Bridal Makeup
+        .col-md-4.mb-15
+          .item.dd
+            .position-re.o-hidden
+              img(src='../img/images/home/s4.jpg' alt='')
+            .con
+              h5
+                a(href='services-page.html') Child Face Painting
+        .col-md-4
+          .item.dd
+            .position-re.o-hidden
+              img(src='../img/images/home/s2.jpg' alt='')
+            .con
+              h5
+                a(href='services-page.html') Fashion Makeup
+        .col-md-4
+          .item.dd
+            .position-re.o-hidden
+              img(src='../img/images/home/s5.jpg' alt='')
+            .con
+              h5
+                a(href='services-page.html') Fantastic Makeup
+        .col-md-4
+          .item.dd
+            .position-re.o-hidden
+              img(src='../img/images/home/s6.jpg' alt='')
+            .con
+              h5
+                a(href='services-page.html') Effect Makeup
+
+  .section-padding
+    .container
+      .row
+        .col-lg-12.mb-30
+          span Our Makeup Services
+          h1 Makeup Services
+      .row.fredia-services
+        .col-md-3
+          .item.mb-30
+            span.icon
+              img(src='../img/images/home/make-up.png' alt='')
+            h5 Face Makeup
+            p Fusce cursus lectus tellus. Vivamus cursus turpis auctor semper lobortis.
+            p
+              a.underline-text(href='services-page.html') Read More
+        .col-md-3
+          .item.mb-30
+            span.icon
+              img(src='../img/images/home/eye.png' alt='')
+            h5 Eye Makeup
+            p Fusce cursus lectus tellus. Vivamus cursus turpis auctor semper lobortis.
+            p
+              a.underline-text(href='services-page.html') Read More
+        .col-md-3
+          .item.mb-30
+            span.icon
+              img(src='../img/images/home/liner.png' alt='')
+            h5 Eyebrow Makeup
+            p Fusce cursus lectus tellus. Vivamus cursus turpis auctor semper lobortis.
+            p
+              a.underline-text(href='services-page.html') Read More
+        .col-md-3
+          .item.mb-30
+            span.icon
+              img(src='../img/images/home/grooming.png' alt='')
+            h5 Haircut Makeup
+            p Fusce cursus lectus tellus. Vivamus cursus turpis auctor semper lobortis.
+            p
+              a.underline-text(href='service-page.html') Read More
+      .row 
+        .col-md-12.col-md-12.text-right
+          p
+            a.underline-text(href='servicer-page.html') See All Services
+  .testimonials.section-padding.bg-img.bg-fixed(data-background='../img/images/slider/02.jpg' style='background-image: url("../img/images/slider/02.jpg");')
+    .container
+      .row
+        .col-md-12.text-center
+          span Kind words...
+          h1 What Client Say
+      .row
+        section.testimonial
+          .testiBox.row
+            .col-lg-4
+              .testimonialBx
+                p Fredia is fantastic! From someone who is very particular about their make up, Fredia gave me the best makeover I could have imagined, and all worries flew away. Fredia is also a very fast and dynamic hairstylist too.
+                hr
+                figure
+                  img(src='https://images.unsplash.com/flagged/photo-1574874897534-036671407eda?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=698&q=80' alt='Allian Collins Image')
+                h3 Allian Collins
+            .col-lg-4
+              .testimonialBx
+                p Fredia is fantastic! From someone who is very particular about their make up, Fredia gave me the best makeover I could have imagined, and all worries flew away. Fredia is also a very fast and dynamic hairstylist too.
+                hr
+                figure
+                  img(src='https://images.unsplash.com/photo-1484399172022-72a90b12e3c1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80' alt='Allian Collins Image')
+                h3 Allian Collins
+            .col-lg-4
+              .testimonialBx
+                p  Fredia is fantastic! From someone who is very particular about their make up, Fredia gave me the best makeover I could have imagined, and all worries flew away. Fredia is also a very fast and dynamic hairstylist too.
+                hr
+                figure
+                  img(src='https://images.unsplash.com/photo-1602368987717-c41505af4151?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80' alt='Allian Collins Image')
+                h3 Allian Collins
+  section.blog-grid.section-padding.bg-gray
+    .container
+      .row
+        .col-md-12.mb-30
+          span Our Blog
+          h1 Latest News
+      .row
+        .col-md-12.owl-carousel.owl-theme.owl-loaded.owl-drag
+          .owl-stage-outer.row
+            .owl-item.active(style='width: 340px; margin-right: 30px;')
+              .item.list
+                .img
+                  img(src='../img/images/blog/1.jpg' alt='')
+                .cont
+                  a.date(href='#0')
+                    span
+                      i 16
+                      |  Dec
+                  .info.custom-font
+                    a.tag(href='blog.html')
+                      span Bridal Makeup
+                  h6
+                    a(href='post.html') 8 Ways To Wear Flowers In Your Hair
+                  a.underline-text(href='post.html') Read More
+            .owl-item.active(style='width: 340px; margin-right: 30px;')
+              .item.list
+                .img
+                  img(src='../img/images/blog/2.jpg' alt='')
+                .cont
+                  a.date(href='#0')
+                    span
+                      i 16
+                      |  Dec
+                  .info.custom-font
+                    a.tag(href='blog.html')
+                      span Hair Makeup
+                  h6
+                    a(href='post.html') What To Expect At Your Hair And Makeup Trial
+                  a.underline-text(href='post.html') Read More
+            .owl-item.active(style='width: 340px; margin-right: 30px;')
+              .item.list
+                .img
+                  img(src='../img/images/blog/3.jpg' alt='')
+                .cont
+                  a.date(href='#0')
+                    span
+                      i 16
+                      |  Dec
+                  .info.custom-font
+                    a.tag(href='blog.html')
+                      span Makeup Lesson
+                  h6
+                    a(href='post.html') So You Want To Be A Makeup Artist?
+                  a.underline-text(href='post.html') Read More
+  footer
+    .container
+      .footer-section
+        .row
+          .col-md-4.col-lg-4.col-xl-4
+            h6 Address Informations
+            p
+              b Fredia Victoria
+              br
+              p Makeup Artist
+            p 707 West Ave, CT 07750
+            p Connecticut — Norwalk 
+          .col-md-4.col-lg-4.col-xl-5
+            <h6>Contact Details</h6>
+            p E-mail Address:
+            p reservation@frediasan.com
+            .btn-cont
+              a(href="contact.html")
+                span Contact Us!
+          .col-md-4.col-lg-4.col-xl-3
+            h1 (+123) 456 789 000
+            p Working Hours:
+              | Mon-Fri: 08.00 - 19.00
+              | Sunday: Closed
+  button#mybtn(onclick='topFunction()' title='Go to top')
+    i.fa-solid.fa-jet-fighter-up
+  script(src="../js/script.js")
+  script(src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous")
+  script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous")
+
+
